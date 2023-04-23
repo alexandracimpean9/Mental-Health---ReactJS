@@ -1,0 +1,69 @@
+.review:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.review small {
+  font-weight: 600px;
+  text-transform: uppercase;
+  color: var(--c-brand);
+  font-family: Merriweather;
+}
+
+.review-head {
+  position: relative;
+  background-color: rgba(245, 236, 236, 0.56);
+  margin-left: 0.1px;
+  margin-bottom: 25px;
+  width: 370px;
+  height: 250px;
+  font-family: Merriweather;
+}
+
+.review-head::after {
+  content: "";
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: -14px;
+  background-color: rgba(245, 236, 236, 0.56);
+  transform: rotate(45deg);
+}
+
+.review {
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  width: 400px;
+  height: 450px;
+  font-family: Merriweather;
+  background-color: var(--white-color);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+  transition: var(--transition);
+}
+.testimonial-img img {
+  width: 120px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: "cover";
+  border-radius: 160px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  align-items: center;
+  row-gap: 70px;
+  column-gap: 70px;
+  font-family: Merriweather;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+}
