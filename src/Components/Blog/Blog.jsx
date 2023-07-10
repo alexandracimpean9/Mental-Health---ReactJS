@@ -14,7 +14,6 @@ const Blog = ({ img, time, description, title, link }) => {
   return (
     <div>
       <Navbar />
-      <Fade bottom>
         <InputGroup className="box">
           <Form.Control
             className="search"
@@ -46,7 +45,6 @@ const Blog = ({ img, time, description, title, link }) => {
               );
             })}
         </div>
-      </Fade>
       <Footer />
     </div>
   );
